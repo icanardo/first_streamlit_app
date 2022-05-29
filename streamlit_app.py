@@ -10,4 +10,6 @@ streamlit.text('Pannenkoek spinazie 🥗')
 streamlit.text('Pannenkoek kip 🐔')
 streamlit.text('Pannenkoek advocado 🥑')
 streamlit.text('Tosti ham/kaast 🍞')
-   
+
+streamlit.header('🍌 Kindermenu met fruit voor Imke's 🥝🍇')
+
