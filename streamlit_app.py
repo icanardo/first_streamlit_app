@@ -1,6 +1,5 @@
 import streamlit
 import pandas
-import snowflake.connector
 
 streamlit.title('My Parents New Healthy Diner')
 
@@ -25,4 +24,5 @@ fruits_selected = streamlit.multiselect("Kies wat fruit:", list(my_fruit_list.in
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
+import snowflake.connector
 
